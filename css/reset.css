@@ -1,0 +1,29 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{
+  margin:0;
+  padding:0;
+  border:none;
+}
+body{
+  font-size: 1em;
+  font-style: normal;
+  color:#ffffff;
+  background: #7E57FE;
+  /*cursor: url(../img/icons/cursor_pp.cur), auto;*/
+  overflow-x:hidden;
+}
+li{
+  list-style:none;
+}
+a{
+  color:#ffffff;
+  text-decoration:none;
+}
+img{
+  vertical-align:top;
+}
+img,fieldset,iframe{
+  border:0 none;
+}
+
+button{
+  background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer}
